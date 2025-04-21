@@ -55,4 +55,4 @@ yq --indent 2 --inplace ".networkId |= \"${NETWORK_ID}\"" nodes.yml
 yq --indent 2 --inplace ".account.signingKey |= \"${NETWORK_SIGNING_KEY}\"" account3.yml
 yq --indent 2 --inplace ".account.signingKey |= \"${NETWORK_SIGNING_KEY}\"" account5.yml
 
-echo "INFO: $0 done"
+echo "INFO: $0 done" 
