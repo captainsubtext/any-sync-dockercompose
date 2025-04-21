@@ -19,3 +19,4 @@ quic:
         - %ANY_SYNC_CONSENSUSNODE_QUIC_ADDRESSES%
     writeTimeoutSec: 10
     dialTimeoutSec: 10
+
